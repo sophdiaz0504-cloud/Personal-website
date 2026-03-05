@@ -1,0 +1,61 @@
+body {
+	Background-color: #BBDEFB;
+}
+	header {
+      background-color: #0D47A1;
+      padding: 1px;
+	  	margin: 0px;
+}
+
+h1 {
+	font-family: Georgia;
+	 text-align: left;
+   font-size: 40px;
+	color: black;
+}
+
+nav a {
+      color: #81D4FA;
+      text-decoration: underline;
+     padding-right: 10px;
+	  	margin: 0px;
+}
+h2 {
+		font-family: Georgia;
+	 text-align: left;
+   font-size: 30px;
+	color: #0D47A1;
+}
+p {
+	text-align: left;
+   font-size: 25px;
+	color:#0277BD;
+	font-family:Montserrat, sans-serif;
+}
+
+.parent {
+	background-color: ghostwhite;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: ##1565C0;
+  padding: 10px;
+}
+
+.box {
+  background: #66c2ff;
+  color: white;
+  padding: 40px;
+  margin: 15px;
+  flex: 0 0 150px;
+  text-align: left;
+}
+
+@media (auto-fill) {
+  .main {
+    flex-direction: column;
+  }
+}
